@@ -184,3 +184,29 @@ nav ul a {
 .s04-list li:nth-child(even){
   margin-top:60px ;
 }
+
+footer {
+  background-color: #F1F1F1;
+  padding: 20px 0;
+}
+footer .inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot-list {
+  display: flex;
+  gap: 20px;
+}
+.foot-list a{
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background-color: #7044C2;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.foot-list a img{
+  width: 30px;
+}
